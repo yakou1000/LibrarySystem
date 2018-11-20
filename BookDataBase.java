@@ -66,4 +66,11 @@ public class BookDataBase{
         //拡張案：貸し出し状況の表示、貸し出し中の場合は返却予定日を表示
     }
 
+    //本の一覧を表示するメソッド
+    public void viewAllBooks(){
+        for(Book b:bookList){
+            System.out.println("ID:" + b.getId() + " NAME:" + b.getName());
+        }
+    }
+
 }

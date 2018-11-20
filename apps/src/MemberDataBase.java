@@ -1,13 +1,14 @@
 import java.util.*;
 
 public class MemberDataBase{
-    Arraylist<Member> memberList;
+    ArrayList<Member> memberList;
 
     //コンストラクタ
     public MemberDataBase(){
-        this.memberList = new Arraylist<>();
+        this.memberList = new ArrayList<>();
     }
 
+    /*
     //会員登録するメソッド
     public void register(){
 
@@ -22,6 +23,7 @@ public class MemberDataBase{
     public void change(){
 
     }
+    */
 
 }
 

@@ -4,7 +4,7 @@ public class Member{
     private int memberId;
     final String name;
     private boolean ooo;
-    private Arraylist<Book> ownList;
+    private ArrayList<Book> ownList;
 
     /*
      * コンストラクタ
@@ -12,7 +12,7 @@ public class Member{
     public Member(String name,boolean ooo){
         this.name = name;
         this.ooo = ooo;
-        this.ownlist = new Arraylist<>();
+        this.ownList = new ArrayList<>();
         //ID(登録番号)を生成する
     }
 

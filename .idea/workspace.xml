@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LibrarySystem:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cbd06022-145c-4008-9ed9-6aa98276646e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/BookDataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MemberDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/MemberDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/LibrarySystem_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/src/BookDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/BookDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/src/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/src/MemberDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/MemberDataBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,14 +47,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4284" />
-          <entry key="txt" value="886" />
+          <entry key="java" value="4608" />
+          <entry key="txt" value="941" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4284" />
-          <entry key="PLAIN_TEXT" value="886" />
+          <entry key="JAVA" value="4608" />
+          <entry key="PLAIN_TEXT" value="941" />
         </counts>
       </usages-collector>
     </session>
@@ -56,9 +64,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/src/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+            <state relative-caret-position="30">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#615#616#0" expanded="true" />
                 <element signature="e#645#646#0" expanded="true" />
                 <element signature="e#692#693#0" expanded="true" />
@@ -81,26 +90,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/src/BookDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="1005">
+              <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/src/Member.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="210">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="e#160#161#0" expanded="true" />
                 <element signature="e#202#203#0" expanded="true" />
@@ -112,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/src/MemberDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="375">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding>
                 <element signature="e#112#113#0" expanded="true" />
                 <element signature="e#150#151#0" expanded="true" />
@@ -137,6 +146,11 @@
         <option value="$PROJECT_DIR$/LibrarySystemDemo.java" />
         <option value="$PROJECT_DIR$/src/LibrarySystemDemo.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/apps/src/Book.java" />
+        <option value="$PROJECT_DIR$/apps/src/BookDataBase.java" />
+        <option value="$PROJECT_DIR$/apps/src/Main.java" />
+        <option value="$PROJECT_DIR$/apps/src/MemberDataBase.java" />
+        <option value="$PROJECT_DIR$/apps/src/Member.java" />
       </list>
     </option>
   </component>
@@ -178,7 +192,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542696888585" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542698144405" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -298,20 +312,28 @@
       <option name="project" value="LOCAL" />
       <updated>1542696826669</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="整理：フォルダの変更、モジュールの作成&#10;&#10;モジュールを作成し、作成したjavaファイルをsrcフォルダ内に移動した">
+      <created>1542696931983</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1542696931983</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="23" width="1109" height="811" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26897845" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26897845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32962447" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -322,7 +344,7 @@
       <window_info anchor="bottom" id="SBT Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32962447" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32962447" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -373,39 +395,19 @@
     <MESSAGE value="整理：フォルダの作成、ファイル位置を変更&#10;&#10;全javaファイルを置く位置をsrcフォルダ内に変更した" />
     <MESSAGE value="機能修正：引数名の変更&#10;&#10;main関数の引数の[]の位置を変更した" />
     <MESSAGE value="機能修正：クラス名の変更&#10;&#10;LibrarySystemDemo.javaをMain.javaに変更" />
-    <option name="LAST_COMMIT_MESSAGE" value="機能修正：クラス名の変更&#10;&#10;LibrarySystemDemo.javaをMain.javaに変更" />
+    <MESSAGE value="整理：フォルダの変更、モジュールの作成&#10;&#10;モジュールを作成し、作成したjavaファイルをsrcフォルダ内に移動した" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理：フォルダの変更、モジュールの作成&#10;&#10;モジュールを作成し、作成したjavaファイルをsrcフォルダ内に移動した" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LibrarySystem.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/src/MemberDataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/src/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/src/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+        <state relative-caret-position="30">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#615#616#0" expanded="true" />
             <element signature="e#645#646#0" expanded="true" />
             <element signature="e#692#693#0" expanded="true" />
@@ -426,15 +428,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/src/BookDataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+        <state relative-caret-position="1005">
+          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="345">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/src/MemberDataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/src/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -444,10 +468,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>LibrarySystem:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

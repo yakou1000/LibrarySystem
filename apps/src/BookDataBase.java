@@ -1,12 +1,12 @@
 import java.util.*;
 
 public class BookDataBase{
-    private Arraylist<Book> bookList;
+    private ArrayList<Book> bookList;
     private int bookCounter;
 
     //コンストラクタ
     public BookDataBase(){
-        bookList = new Arraylist<>();
+        bookList = new ArrayList<>();
         bookCounter = 1;
     }
 
@@ -21,9 +21,8 @@ public class BookDataBase{
     //名前から本情報を返すメソッド
     public Book bookInfomation(String name){
         for(Book b:bookList){
-            if(strcmp(b.getName(),name)==0){
+            if(b.getName().equals(name)){
                 return b;
-                break;
             }
         }
         System.out.println("This book don't exist");
@@ -31,11 +30,10 @@ public class BookDataBase{
     }
 
     //idから本情報を返すメソッド
-    public Book bookInformation(int id){
+    public Book bookInfomation(int id){
         for(Book b:bookList){
             if(b.getId() == id){
                 return b;
-                break;
             }
         }
         System.out.println("This book don't exist");
@@ -44,11 +42,12 @@ public class BookDataBase{
 
     //本を廃棄するメソッド
     public void discard(int id){
-        Book removeBook = bookList.bookInformation(id);
+        Book removeBook = this.bookInfomation(id);
         if(removeBook != null){
             bookList.remove(bookList.indexOf(removeBook));
         }
     }
+    /*
 
     //本を貸し出すメソッド
     public void lend(){
@@ -65,6 +64,8 @@ public class BookDataBase{
         //文字列が一部一致している本の名前・idをセットで出力する
         //拡張案：貸し出し状況の表示、貸し出し中の場合は返却予定日を表示
     }
+
+    */
 
     //本の一覧を表示するメソッド
     public void viewAllBooks(){

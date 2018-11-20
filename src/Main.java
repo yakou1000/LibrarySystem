@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class LibrarySystemDemo(){
+public class Main(){
     private BookDataBase bdb;
     private MemberDataBase mdb;
 

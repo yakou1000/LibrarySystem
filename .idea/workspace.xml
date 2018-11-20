@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cbd06022-145c-4008-9ed9-6aa98276646e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookDataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/Member.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,24 +36,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2579" />
-          <entry key="txt" value="371" />
+          <entry key="java" value="3532" />
+          <entry key="txt" value="539" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2579" />
-          <entry key="PLAIN_TEXT" value="371" />
+          <entry key="JAVA" value="3532" />
+          <entry key="PLAIN_TEXT" value="539" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
+            <state relative-caret-position="750">
               <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
               <folding>
                 <element signature="e#615#616#0" expanded="true" />
@@ -77,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BookDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="273">
+              <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -89,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Member.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="45">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
               <folding>
                 <element signature="e#160#161#0" expanded="true" />
                 <element signature="e#202#203#0" expanded="true" />
@@ -121,9 +119,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/MemberDataBase.java" />
+        <option value="$PROJECT_DIR$/Book.java" />
         <option value="$PROJECT_DIR$/Member.java" />
         <option value="$PROJECT_DIR$/BookDataBase.java" />
-        <option value="$PROJECT_DIR$/Book.java" />
       </list>
     </option>
   </component>
@@ -154,7 +152,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542693267986" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542695137016" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
   </component>
   <component name="RunDashboard">
@@ -216,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542690474049</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="機能修正：Bookにコンストラクタ,getter,setterを追加&#10;&#10;Bookのコンストラクタを完成させた&#10;Bookの各フィールドについてsetterとgetterを定義した">
+      <created>1542693329847</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542693329847</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -284,7 +289,8 @@
     <MESSAGE value="機能修正：Bookクラスにフィールドを追加&#10;&#10;仕様を満たすように変更した" />
     <MESSAGE value="機能修正：全クラスにフィールド・メソッドを追加&#10;&#10;BookDataBaseクラスにフィールドを追加&#10;BookDataBaseクラスにメソッドを5つ追加&#10;Memberクラスにフィールドを追加&#10;Memberクラスにコンストラクタを追加&#10;Memberクラスにメソッドを追加&#10;MemberDataBaseクラスにフィールドを追加&#10;MemberDataBaseクラスにメソッドを追加" />
     <MESSAGE value="機能修正：MemberDataBase、Bookにコンストラクタを追加&#10;&#10;MemberDataBaseにコンストラクタを追加&#10;Bookにコンストラクタを追加、しかし途中である" />
-    <option name="LAST_COMMIT_MESSAGE" value="機能修正：MemberDataBase、Bookにコンストラクタを追加&#10;&#10;MemberDataBaseにコンストラクタを追加&#10;Bookにコンストラクタを追加、しかし途中である" />
+    <MESSAGE value="機能修正：Bookにコンストラクタ,getter,setterを追加&#10;&#10;Bookのコンストラクタを完成させた&#10;Bookの各フィールドについてsetterとgetterを定義した" />
+    <option name="LAST_COMMIT_MESSAGE" value="機能修正：Bookにコンストラクタ,getter,setterを追加&#10;&#10;Bookのコンストラクタを完成させた&#10;Bookの各フィールドについてsetterとgetterを定義した" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LibrarySystem.iml">
@@ -303,8 +309,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Member.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding>
             <element signature="e#160#161#0" expanded="true" />
             <element signature="e#202#203#0" expanded="true" />
@@ -312,16 +318,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BookDataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="750">
           <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
           <folding>
             <element signature="e#615#616#0" expanded="true" />
@@ -339,6 +338,13 @@
             <element signature="e#1120#1121#0" expanded="true" />
             <element signature="e#1146#1147#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookDataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
         </state>
       </provider>
     </entry>

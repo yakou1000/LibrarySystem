@@ -1,9 +1,16 @@
 import java.util.*;
 
 public class Book{
-    int id;             //本ID
-    String name;        //本の名前
-    boolean lent;       //貸し出し状況
-    int returnDate[3];  //返却予定日
-    int registDate[3];  //本の登録日
+    private int id;             //本ID
+    final String name;        //本の名前
+    private boolean lent;       //貸し出し状況
+    private int returnDate[];  //返却予定日
+    private int registDate[];  //本の登録日
+
+    //コンストラクタ
+    public Book(String name){
+        this.name = name;
+        lent = false;
+        returnDate = {0,0,0};
+    }
 }

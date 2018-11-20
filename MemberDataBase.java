@@ -3,6 +3,7 @@ import java.util.*;
 public class MemberDataBase{
     Arraylist<Member> memberList;
 
+    //コンストラクタ
     public MemberDataBase(){
         this.memberList = new Arraylist<>();
     }

@@ -3,6 +3,11 @@ import java.util.*;
 public class BookDataBase{
     Arraylist<Book> booklist;
 
+    //コンストラクタ
+    public BookDataBase(){
+        booklist = new Arraylist<>();
+    }
+
     //本を登録するメソッド
     public void register(){
 

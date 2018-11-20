@@ -1,10 +1,10 @@
 import java.util.*;
 
 public class Member{
-    int memberId;
-    String name;
-    boolean ooo;
-    Arraylist<Book> ownList;
+    private int memberId;
+    final String name;
+    private boolean ooo;
+    private Arraylist<Book> ownList;
 
     /*
      * コンストラクタ

@@ -1,14 +1,17 @@
 import java.util.*;
 
 public class BookDataBase{
-    Arraylist<Book> booklist;
+    private Arraylist<Book> bookList;
+    private int bookCounter;
 
     //コンストラクタ
     public BookDataBase(){
         booklist = new Arraylist<>();
+        bookCounter = 0;
     }
 
     //本を登録するメソッド
+    //本を登録して、bookCounterを1増やす
     public void register(){
 
     }

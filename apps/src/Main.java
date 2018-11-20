@@ -10,13 +10,8 @@ public class Main{
         bdb.register("SecondBook");
         bdb.register("ThirdBook");
         bdb.viewAllBooks();
-        //本を検索する
-        Book book1 = bdb.bookInfomation("2ndBook");
-        Book book2 = bdb.bookInfomation("SecondBook");
         //本を廃棄する(idが一致したりしなかったりする)
-        bdb.discard(book1.getId());
-        bdb.viewAllBooks();
-        bdb.discard(book2.getId());
+        bdb.discard(bdb.bookInformation("SecondBook").getId());
         bdb.viewAllBooks();
         //再び登録する
         bdb.register("4thBook");

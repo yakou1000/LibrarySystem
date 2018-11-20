@@ -19,7 +19,7 @@ public class BookDataBase{
     }
 
     //名前から本情報を返すメソッド
-    public Book bookInfomation(String name){
+    public Book bookInformation(String name){
         for(Book b:bookList){
             if(b.getName().equals(name)){
                 return b;
@@ -30,7 +30,7 @@ public class BookDataBase{
     }
 
     //idから本情報を返すメソッド
-    public Book bookInfomation(int id){
+    public Book bookInformation(int id){
         for(Book b:bookList){
             if(b.getId() == id){
                 return b;
@@ -42,7 +42,7 @@ public class BookDataBase{
 
     //本を廃棄するメソッド
     public void discard(int id){
-        Book removeBook = this.bookInfomation(id);
+        Book removeBook = this.bookInformation(id);
         if(removeBook != null){
             bookList.remove(bookList.indexOf(removeBook));
         }

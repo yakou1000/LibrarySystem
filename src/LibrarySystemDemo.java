@@ -4,7 +4,7 @@ public class LibrarySystemDemo(){
     private BookDataBase bdb;
     private MemberDataBase mdb;
 
-    public static void main(String args[]){
+    public static void main(String[] args){
             bdb = new BookDataBase();
             mdb = new MemberDataBase();
 

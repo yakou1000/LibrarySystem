@@ -55,7 +55,7 @@ public class BookDataBase{
             System.out.println("This book is not exist");
             return;
         }else{
-            bookList.remove( bookList.indexOf(this.bookInformation(id).indexOf(0)) );
+            bookList.remove( bookList.indexOf(this.bookInformation(id).get(0)) );
         }
     }
     /*

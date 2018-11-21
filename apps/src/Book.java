@@ -12,7 +12,7 @@ public class Book{
 
     //コンストラクタ
     public Book(String name,int id){
-        this.id = id;                       //本DBのメソッドを
+        this.id = id;                       //本DBのメソッドから生成
         this.name = name;                   //本の名前
         this.lent = false;                  //貸し出し中かどうか
         this.registerDate = new Date();     //本を登録した日付

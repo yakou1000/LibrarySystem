@@ -14,37 +14,48 @@ public class BookDataBase{
     //本を登録して、bookCounterを1増やす
     public void register(String name){
         Book newBook = new Book(name,bookCounter);
-        bookCounter += 1;
-        bookList.add(newBook);
+
+        //エラーチェック:IDが同じ本が存在していたら登録しない
+        if(this.bookInformation(bookCounter).isEmpty()) {
+            bookCounter += 1;
+            bookList.add(newBook);
+        }else{
+            System.out.println("This ID is already used");
+            return;
+        }
     }
 
     //名前から本情報を返すメソッド
-    public Book bookInformation(String name){
+    //同じ名前の本をまとめてリストにして返す
+    public ArrayList<Book> bookInformation(String name){
+        ArrayList<Book> ret = new ArrayList<>();
         for(Book b:bookList){
             if(b.getName().equals(name)){
-                return b;
+                ret.add(b);
             }
         }
-        System.out.println("This book don't exist");
-        return null;
+        return ret;
     }
 
     //idから本情報を返すメソッド
-    public Book bookInformation(int id){
+    //扱いを一元化するためにリストで返す
+    public ArrayList<Book> bookInformation(int id){
+        ArrayList<Book> ret = new ArrayList<>();
         for(Book b:bookList){
             if(b.getId() == id){
-                return b;
+                ret.add(b);
             }
         }
-        System.out.println("This book don't exist");
-        return null;
+        return ret;
     }
 
-    //本を廃棄するメソッド
+    //idから本を廃棄するメソッド
     public void discard(int id){
-        Book removeBook = this.bookInformation(id);
-        if(removeBook != null){
-            bookList.remove(bookList.indexOf(removeBook));
+        if(this.bookInformation(id).isEmpty()) {
+            System.out.println("This book is not exist");
+            return;
+        }else{
+            bookList.remove( bookList.indexOf(this.bookInformation(id).indexOf(1)) );
         }
     }
     /*

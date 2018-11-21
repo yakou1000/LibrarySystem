@@ -21,11 +21,14 @@ public class Main{
         //同じ名前の本を登録する
         bdb.register("FirstBook");
         bdb.register("SecondBook");
+        bdb.register("日本語の本です");
+        bdb.register("日本語の本その一");
         bdb.viewAllBooks();
         //本を検索する
         bdb.search("cond");
         bdb.search("first");
         bdb.search("First");
         bdb.search("Book");
+        bdb.search("一");
     }
 }

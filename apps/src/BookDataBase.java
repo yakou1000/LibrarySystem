@@ -77,7 +77,7 @@ public class BookDataBase{
         //拡張案：貸し出し状況の表示、貸し出し中の場合は返却予定日を表示
         int num = 0;    //本の数
         for(Book b:bookList){
-            if(b.getName().contains(name)){
+            if(b.getName().toLowerCase().contains(name.toLowerCase())){
                 System.out.println("ID: " + b.getId() + ", NAME: " + b.getName());
                 num +=1;
             }

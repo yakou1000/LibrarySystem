@@ -10,15 +10,10 @@ public class Main{
         bdb.register("SecondBook");
         bdb.register("ThirdBook");
         bdb.viewAllBooks();
-        //本を廃棄する(idが一致したりしなかったりする)
-        System.out.println("Moving check");
-        Book book1 = bdb.bookInformation("SecondBook");
-        System.out.println("Checkpoint 2");
-        if(book1 != null){
-            bdb.discard(book1.getId());
-        }else{
-            System.out.println("cannot discard");
-        }
+        //本を廃棄する(idが一致したりしなかったりする
+        bdb.discard(4);
+        bdb.viewAllBooks();
+        bdb.discard(2);
         bdb.viewAllBooks();
         //再び登録する
         bdb.register("4thBook");

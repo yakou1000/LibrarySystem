@@ -9,6 +9,7 @@
     <list default="true" id="cbd06022-145c-4008-9ed9-6aa98276646e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/apps/src/BookDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/BookDataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,14 +47,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5469" />
-          <entry key="txt" value="1212" />
+          <entry key="java" value="5865" />
+          <entry key="txt" value="1283" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5469" />
-          <entry key="PLAIN_TEXT" value="1212" />
+          <entry key="JAVA" value="5865" />
+          <entry key="PLAIN_TEXT" value="1283" />
         </counts>
       </usages-collector>
     </session>
@@ -75,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/src/BookDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="57" column="78" selection-start-line="57" selection-start-column="78" selection-end-line="57" selection-end-column="78" />
+            <state relative-caret-position="315">
+              <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -84,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state relative-caret-position="315">
+              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -373,11 +374,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542809671100</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="バグ修正:BookDataBase&#10;&#10;BookDataBaseが正しく動作するように、discardメソッドを変更した&#10;無事に正しく動作するようになった">
+      <created>1542809980498</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1542809980498</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="433" y="23" width="1109" height="811" extended-state="0" />
+    <frame x="293" y="23" width="1109" height="811" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2877226" />
@@ -456,7 +464,8 @@
     <MESSAGE value="機能修正：mainの修正&#10;&#10;mainを動くようにした" />
     <MESSAGE value="機能修正：メソッドの変更&#10;&#10;BookDataBaseのbookInformationメソッドの返り値をBookでなくArrayList&lt;Book&gt;にした。そのことによってnullチェックが簡単になった。&#10;それに合わせてdiscardの中身を変更した" />
     <MESSAGE value="バグ修正:main&#10;&#10;mainが動くように変更した。&#10;しかしまだ動くようになっていない。" />
-    <option name="LAST_COMMIT_MESSAGE" value="バグ修正:main&#10;&#10;mainが動くように変更した。&#10;しかしまだ動くようになっていない。" />
+    <MESSAGE value="バグ修正:BookDataBase&#10;&#10;BookDataBaseが正しく動作するように、discardメソッドを変更した&#10;無事に正しく動作するようになった" />
+    <option name="LAST_COMMIT_MESSAGE" value="バグ修正:BookDataBase&#10;&#10;BookDataBaseが正しく動作するように、discardメソッドを変更した&#10;無事に正しく動作するようになった" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LibrarySystem.iml">
@@ -488,15 +497,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="315">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/src/BookDataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="57" column="78" selection-start-line="57" selection-start-column="78" selection-end-line="57" selection-end-column="78" />
+        <state relative-caret-position="315">
+          <caret line="93" column="29" selection-start-line="93" selection-start-column="29" selection-end-line="93" selection-end-column="29" />
         </state>
       </provider>
     </entry>

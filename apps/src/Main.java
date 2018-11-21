@@ -18,6 +18,14 @@ public class Main{
         //再び登録する
         bdb.register("4thBook");
         bdb.register("5thBook");
+        //同じ名前の本を登録する
+        bdb.register("FirstBook");
+        bdb.register("SecondBook");
         bdb.viewAllBooks();
+        //本を検索する
+        bdb.search("cond");
+        bdb.search("first");
+        bdb.search("First");
+        bdb.search("Book");
     }
 }

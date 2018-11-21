@@ -69,20 +69,29 @@ public class BookDataBase{
     public void recieve(){
 
     }
+    */
 
     //ユーザーが本を検索するメソッド
     public void search(String name){
         //文字列が一部一致している本の名前・idをセットで出力する
         //拡張案：貸し出し状況の表示、貸し出し中の場合は返却予定日を表示
+        int num = 0;    //本の数
+        for(Book b:bookList){
+            if(b.getName().contains(name)){
+                System.out.println("ID: " + b.getId() + ", NAME: " + b.getName());
+                num +=1;
+            }
+        }
+        System.out.println("検索した文字列を含む本は" + num + "冊ありました");
     }
 
-    */
 
     //本の一覧を表示するメソッド
     public void viewAllBooks(){
         for(Book b:bookList){
             System.out.println("ID:" + b.getId() + " NAME:" + b.getName());
         }
+        System.out.println(" ");
     }
 
 }

@@ -1,13 +1,22 @@
 import java.util.*;
 
 public class LibrarySystem {
-    BookDataBase bookdb;
-    MemberDataBase memberdb;
+    private BookDataBase bookdb;
+    private MemberDataBase memberdb;
 
     //コンストラクタ
     public LibrarySystem(){
         bookdb = new BookDataBase();
         memberdb = new MemberDataBase();
+    }
+
+    //getter
+    public BookDataBase getBookDB(){
+        return bookdb;
+    }
+
+    public MemberDataBase getMemberDB(){
+        return memberdb;
     }
 
     //本を登録
@@ -16,6 +25,45 @@ public class LibrarySystem {
     }
 
     //本を貸し出す
+    public void lendBook(int memberID,int bookID){
+        //memberIDが正しいものチェック
+        if(memberdb.memberInformation(memberID).size()==0){
+            System.out.println("This member is not exist");
+            return;
+        }
+        Member m = memberdb.memberInformation(memberID).get(0);
+        //その会員が貸出可能かをチェック
+        if(m.isMax()){
+            System.out.println("You cannot lend more books");
+            return;
+        }
+        //bookIDが正しいものかをチェック
+        if(bookdb.bookInformation(bookID).size()==0){
+            System.out.println("This book is not exist");
+            return;
+        }
+        Book b = bookdb.bookInformation(bookID).get(0);
+        //その本が貸出可能かをチェック
+        if(b.getLent()){
+            System.out.println("This book is borrowed");
+            return;
+        }
+        //本の貸出状況を変更する
+        b.setLent(true);
+        //返却予定日を算出
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(new Date());
+        //大岡山住みの人は3週間、そのほかの人は2週間先の日にちを算出
+        if(m.getOoo()){
+            cal.add(Calendar.DATE,21);
+        }else{
+            cal.add(Calendar.DATE,14);
+        }
+        //ReturnDateの値を更新
+        b.setReturnDate(cal.getTime());
+        //会員の所有リストに本を追加
+        m.add(b);
+    }
 
     //本を検索
     public void searchBook(String name){
@@ -51,3 +99,5 @@ public class LibrarySystem {
         memberdb.viewAllMembers();
     }
 }
+
+//貸出メソッド、getter

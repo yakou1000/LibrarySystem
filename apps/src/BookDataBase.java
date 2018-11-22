@@ -58,18 +58,6 @@ public class BookDataBase{
             bookList.remove( bookList.indexOf(this.bookInformation(id).get(0)) );
         }
     }
-    /*
-
-    //本を貸し出すメソッド
-    public void lend(){
-
-    }
-
-    //本を返却されるメソッド
-    public void recieve(){
-
-    }
-    */
 
     //ユーザーが本を検索するメソッド
     public void search(String name){

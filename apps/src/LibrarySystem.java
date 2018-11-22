@@ -101,6 +101,8 @@ public class LibrarySystem {
             if(book.getId() == bookID){
                 m.remove(book);
                 book.setLent(false);
+                System.out.println("Finish return process");
+                return;
             }
         }
         System.out.println("You didn't borrow this book");

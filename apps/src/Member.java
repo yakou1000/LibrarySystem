@@ -51,7 +51,7 @@ public class Member{
 
     //指定したbookオブジェクトを所有リストから削除
     public void remove(Book book){
-        if(ownList.indexOf(book)>-1){
+        if(ownList.indexOf(book) > -1){
             ownList.remove(ownList.indexOf(book));
         }else{
             System.out.println("This book is not exist in the ownList");

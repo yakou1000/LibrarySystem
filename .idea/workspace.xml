@@ -10,7 +10,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/src/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/src/MemberDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/MemberDataBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,14 +47,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6836" />
-          <entry key="txt" value="1748" />
+          <entry key="java" value="7658" />
+          <entry key="txt" value="1818" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6836" />
-          <entry key="PLAIN_TEXT" value="1748" />
+          <entry key="JAVA" value="7658" />
+          <entry key="PLAIN_TEXT" value="1818" />
         </counts>
       </usages-collector>
     </session>
@@ -92,16 +91,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/src/Member.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="285">
+              <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+              <folding>
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#988#989#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/src/MemberDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -133,8 +142,8 @@
         <option value="$PROJECT_DIR$/apps/src/Book.java" />
         <option value="$PROJECT_DIR$/apps/src/BookDataBase.java" />
         <option value="$PROJECT_DIR$/apps/src/Main.java" />
-        <option value="$PROJECT_DIR$/apps/src/Member.java" />
         <option value="$PROJECT_DIR$/apps/src/MemberDataBase.java" />
+        <option value="$PROJECT_DIR$/apps/src/Member.java" />
       </list>
     </option>
   </component>
@@ -422,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542866403472</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="機能変更：MemberDataBaseの変更&#10;&#10;いくつかのメソッドを追加した。しかし、Memberクラスのメソッドが足りていないためにまだ動作しない。">
+      <created>1542866869728</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1542866869728</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -511,7 +527,8 @@
     <MESSAGE value="機能変更：Bookのフィールドを変更&#10;&#10;本の登録日時、返却予定日のフィールドを、Date型ではなくCalendar型に変更した。" />
     <MESSAGE value="機能変更：Bookのフィールドを変更、mainの変更、viewAllBooksの変更&#10;&#10;本の登録日時、返却予定日のフィールドを、Calendar型ではなくData型に戻した&#10;viewAllBooksの結果に貸し出し状況を表示するようにした" />
     <MESSAGE value="機能変更：mainの変更&#10;&#10;貸し出し中の本には貸出中と表示することを確認できるmainに変更した" />
-    <option name="LAST_COMMIT_MESSAGE" value="機能変更：mainの変更&#10;&#10;貸し出し中の本には貸出中と表示することを確認できるmainに変更した" />
+    <MESSAGE value="機能変更：MemberDataBaseの変更&#10;&#10;いくつかのメソッドを追加した。しかし、Memberクラスのメソッドが足りていないためにまだ動作しない。" />
+    <option name="LAST_COMMIT_MESSAGE" value="機能変更：MemberDataBaseの変更&#10;&#10;いくつかのメソッドを追加した。しかし、Memberクラスのメソッドが足りていないためにまだ動作しない。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LibrarySystem.iml">
@@ -541,17 +558,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/src/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/src/MemberDataBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/src/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
+          <folding>
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

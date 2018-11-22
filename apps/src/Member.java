@@ -17,10 +17,62 @@ public class Member{
         //ID(登録番号)を生成する
     }
 
-    /*
-     * 借りている本の数を返す
-     */
+    //getter群
+    public int getId(){ return memberId; }
+
+    public String getName(){ return name; }
+
+    public boolean getOoo(){return ooo;}
+
+    public ArrayList<Book> getOwnList(){return ownList;}
+
+    //setter群
+    public void setId(int id){ this.memberId = id;}
+
+    public void setOoo(boolean ooo){ this.ooo = ooo;}
+
+    //OwnListに対する操作
+    //add,remove,numOwn,isMax
+
+    //借りている本の数を返す
     public int numOwn(){
         return this.ownList.size();
+    }
+
+    //本を所有リストに入れる
+    public void add(Book book){
+        ownList.add(book);
+    }
+
+    //指定したidを持つ本を所有リストから削除
+    public void remove(int bookId){
+        ownList.remove(bookId);
+    }
+
+    //指定したbookオブジェクトを所有リストから削除
+    public void remove(Book book){
+        ownList.remove(ownList.indexOf(book));
+    }
+
+    //所有リストを全削除
+    public void clear(){
+        ownList.clear();
+    }
+
+    //借りられる最大数借りているかどうかを返す
+    public boolean isMax(){
+        if(ooo){
+            if(this.numOwn() < 5){
+                return false;
+            }else{
+                return true;
+            }
+        }else{
+            if(this.numOwn() < 3){
+                return false;
+            }else{
+                return true;
+            }
+        }
     }
 }

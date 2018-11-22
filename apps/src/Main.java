@@ -60,6 +60,20 @@ public class Main{
         ls.viewAllBooks();
         ls.viewAllMembers();
 
+        //返却手続き
+        //メンバーIDが間違っている
+        ls.returnBook(4,5);
+        //本IDが間違っている
+        ls.returnBook(1,30);
+        //借りていない本を返そうとする
+        ls.returnBook(1,5);
+        //正常な手続き
+        ls.returnBook(1,1);
+        ls.returnBook(1,3);
+        ls.returnBook(1,4);
+
+        ls.viewAllBooks();
+        ls.viewAllMembers();
 
     }
 }

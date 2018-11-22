@@ -44,14 +44,19 @@ public class Member{
         ownList.add(book);
     }
 
-    //指定したidを持つ本を所有リストから削除
-    public void remove(int bookId){
-        ownList.remove(bookId);
+    //指定した順番の本を所有リストから削除
+    public void remove(int index){
+        ownList.remove(index);
     }
 
     //指定したbookオブジェクトを所有リストから削除
     public void remove(Book book){
-        ownList.remove(ownList.indexOf(book));
+        if(ownList.indexOf(book)>-1){
+            ownList.remove(ownList.indexOf(book));
+        }else{
+            System.out.println("This book is not exist in the ownList");
+        }
+
     }
 
     //所有リストを全削除

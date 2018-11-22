@@ -78,6 +78,33 @@ public class LibrarySystem {
     }
 
     //本を返却
+    public void returnBook(int memberID,int bookID){
+        //memberIDが正しいものチェック
+        if(memberdb.memberInformation(memberID).size()==0){
+            System.out.println("This member is not exist");
+            return;
+        }
+        Member m = memberdb.memberInformation(memberID).get(0);
+        //bookIDが正しいものかをチェック
+        if(bookdb.bookInformation(bookID).size()==0){
+            System.out.println("This book is not exist");
+            return;
+        }
+        Book b = bookdb.bookInformation(bookID).get(0);
+        //その本が借りられているかをチェック
+        if(!(b.getLent())){
+            System.out.println("This book didn't be borrowed");
+            return;
+        }
+        //その会員がその本を借りているかをチェックし、借りていたら所有リストから削除する
+        for(Book book:m.getOwnList()){
+            if(book.getId() == bookID){
+                m.remove(book);
+                book.setLent(false);
+            }
+        }
+        System.out.println("You didn't borrow this book");
+    }
 
     //本を廃棄する
     public void discardBook(int id){
@@ -101,5 +128,3 @@ public class LibrarySystem {
         memberdb.viewAllMembers();
     }
 }
-
-//貸出メソッド、getter

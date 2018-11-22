@@ -66,5 +66,20 @@ public class MemberDataBase{
         return ret;
     }
 
+    //全会員を表示するメソッド
+    public void viewAllMembers(){
+        for(Member m:memberList){
+            System.out.print("ID:" + m.getId() + ", NAME:" + m.getName() + ", numOwn:" + m.numOwn() + ", ");
+            if(m.getOoo()){
+                System.out.println("大岡山住み");
+            }else{
+                System.out.println("大岡山以外住み");
+            }
+        }
+        System.out.println(" ");
+    }
+
+    //特定のユーザーが所持している本の一覧を表示するメソッド
+
 }
 

@@ -33,5 +33,15 @@ public class Main{
         //本の貸し出し状況を変更する
         bdb.bookInformation(3).get(0).setLent(true);
         bdb.viewAllBooks();
+
+        //会員登録
+        mdb.register("Man1");
+        mdb.register("Woman1");
+        mdb.register("Man2");
+        //会員情報変更
+        mdb.memberInformation(2).get(0).setOoo(true);
+        mdb.memberInformation(1).get(0).add(bdb.bookInformation(1).get(0));
+        mdb.viewAllMembers();
+
     }
 }

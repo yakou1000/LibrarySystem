@@ -129,4 +129,21 @@ public class LibrarySystem {
     public void viewAllMembers(){
         memberdb.viewAllMembers();
     }
+
+    //ある会員の借りている本の一覧を表示
+    public void viewOwnList(int memberID){
+        //memberIDが正しいものチェック
+        if(memberdb.memberInformation(memberID).size()==0){
+            System.out.println("This member is not exist");
+            return;
+        }
+        Member m = memberdb.memberInformation(memberID).get(0);
+        System.out.println("NAME: " + m.getName() + " は" + m.getOwnList().size() + "冊借りています");
+        if(m.getOwnList().size()!=0){
+            for(Book b:m.getOwnList()){
+                System.out.println("ID:" + b.getId() + ", NAME:" + b.getName() + ", 返却予定日:" + b.RetDateString());
+            }
+        }
+        System.out.println(" ");
+    }
 }

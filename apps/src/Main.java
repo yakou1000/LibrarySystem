@@ -43,6 +43,7 @@ public class Main{
         //会員情報変更
         ls.getMemberDB().memberInformation(2).get(0).setOoo(true);
         ls.viewAllMembers();
+
         //貸出手続き
         //正常な手続き
         ls.lendBook(1,1);
@@ -60,6 +61,11 @@ public class Main{
 
         ls.viewAllBooks();
         ls.viewAllMembers();
+
+        //所有リスト一覧表示
+        ls.viewOwnList(1);
+        ls.viewOwnList(2);
+        ls.viewOwnList(3);
 
         //返却手続き
         //メンバーIDが間違っている

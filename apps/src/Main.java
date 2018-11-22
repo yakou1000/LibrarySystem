@@ -46,6 +46,7 @@ public class Main{
         //貸出手続き
         //正常な手続き
         ls.lendBook(1,1);
+        ls.lendBook(2,6);
         //すでに借りられている手続き
         ls.lendBook(1,1);
         //メンバーIDが間違っている
@@ -71,6 +72,7 @@ public class Main{
         ls.returnBook(1,1);
         ls.returnBook(1,3);
         ls.returnBook(1,4);
+        ls.returnBook(2,6);
 
         ls.viewAllBooks();
         ls.viewAllMembers();

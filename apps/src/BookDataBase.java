@@ -84,7 +84,7 @@ public class BookDataBase{
         for(Book b:bookList){
             System.out.print("ID:" + b.getId() + ", NAME:" + b.getName() + ", 貸出状況:");
             if(b.getLent()){
-                System.out.println("貸出中");
+                System.out.println("貸出中 返却予定日:"+ b.RetDateString());
             }else{
                 System.out.println("貸出可");
             }

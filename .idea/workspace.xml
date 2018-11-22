@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cbd06022-145c-4008-9ed9-6aa98276646e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/src/BookDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/BookDataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/Main.java" afterDir="false" />
     </list>
@@ -47,14 +48,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11875" />
-          <entry key="txt" value="2670" />
+          <entry key="java" value="11922" />
+          <entry key="txt" value="2722" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11875" />
-          <entry key="PLAIN_TEXT" value="2670" />
+          <entry key="JAVA" value="11922" />
+          <entry key="PLAIN_TEXT" value="2722" />
         </counts>
       </usages-collector>
     </session>
@@ -76,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/src/BookDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="87" column="18" lean-forward="true" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
+            <state relative-caret-position="450">
+              <caret line="70" column="73" selection-start-line="70" selection-start-column="73" selection-end-line="70" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -85,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
+            <state relative-caret-position="250">
+              <caret line="85" column="35" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -111,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/src/MemberDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
+            <state relative-caret-position="1123">
               <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
             </state>
           </provider>
@@ -120,7 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/src/LibrarySystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="1187">
               <caret line="123" column="5" lean-forward="true" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
               <folding>
                 <element signature="e#303#304#0" expanded="true" />
@@ -238,7 +239,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542876914381" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542877159209" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -550,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542876826615</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="機能変更：mainの変更&#10;&#10;2回目以降の本の貸出で予定返却日の表示が正しくされるかを確認するためにmainを変更した。">
+      <created>1542877032410</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1542877032410</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -617,7 +625,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="機能修正：クラス名の変更&#10;&#10;LibrarySystemDemo.javaをMain.javaに変更" />
     <MESSAGE value="整理：フォルダの変更、モジュールの作成&#10;&#10;モジュールを作成し、作成したjavaファイルをsrcフォルダ内に移動した" />
     <MESSAGE value="機能修正：mainの修正、スペルミス整理&#10;&#10;mainを動くようにした&#10;全ファイルのlistをListに変更した" />
     <MESSAGE value="機能修正：mainの修正、スペルミス整理&#10;&#10;mainを動くようにした&#10;全ファイルのinfomationをinformationにした" />
@@ -642,11 +649,29 @@
     <MESSAGE value="機能変更：mainの変更&#10;&#10;本返却メソッドの動作確認のためにmainを変更した" />
     <MESSAGE value="機能変更：mainの変更,returnBookの変更&#10;&#10;本返却メソッドの動作確認のためにmainを変更した&#10;returnBookの中にバグがあったので修正した" />
     <MESSAGE value="機能変更：mainの変更,BookDataBaseの変更&#10;&#10;viewAllBooksに予定返却日を表示できるように改良した&#10;それに伴ってmainも変更した" />
-    <option name="LAST_COMMIT_MESSAGE" value="機能変更：mainの変更,BookDataBaseの変更&#10;&#10;viewAllBooksに予定返却日を表示できるように改良した&#10;それに伴ってmainも変更した" />
+    <MESSAGE value="機能変更：mainの変更&#10;&#10;2回目以降の本の貸出で予定返却日の表示が正しくされるかを確認するためにmainを変更した。" />
+    <option name="LAST_COMMIT_MESSAGE" value="機能変更：mainの変更&#10;&#10;2回目以降の本の貸出で予定返却日の表示が正しくされるかを確認するためにmainを変更した。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LibrarySystem.iml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/src/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/src/MemberDataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1123">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/src/Member.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -665,7 +690,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/src/LibrarySystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="1187">
           <caret line="123" column="5" lean-forward="true" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
           <folding>
             <element signature="e#303#304#0" expanded="true" />
@@ -690,34 +715,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/src/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/src/MemberDataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/src/BookDataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="87" column="18" lean-forward="true" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
+        <state relative-caret-position="450">
+          <caret line="70" column="73" selection-start-line="70" selection-start-column="73" selection-end-line="70" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
+        <state relative-caret-position="250">
+          <caret line="85" column="35" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
         </state>
       </provider>
     </entry>

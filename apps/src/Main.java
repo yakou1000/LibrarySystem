@@ -83,6 +83,12 @@ public class Main{
         ls.viewAllBooks();
         ls.viewAllMembers();
 
+        //本を検索する、借りられている場合は返却予定日も出力
+        ls.searchBook("cond");
+        ls.searchBook("first");
+        ls.searchBook("First");
+        ls.searchBook("Book");
+        ls.searchBook("一");
 
     }
 }

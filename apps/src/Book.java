@@ -6,8 +6,8 @@ public class Book{
     final int id;               //本ID
     final String name;          //本の名前
     private boolean lent;       //貸し出し状況
-    private Calendar returnDate;    //返却予定日
-    final Calendar registerDate;  //本の登録日
+    private Date returnDate;    //返却予定日
+    final Date registerDate;  //本の登録日
     SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
 
     //コンストラクタ
@@ -15,7 +15,7 @@ public class Book{
         this.id = id;                       //本DBのメソッドから生成
         this.name = name;                   //本の名前
         this.lent = false;                  //貸し出し中かどうか
-        this.registerDate = Calendar.getInstance();     //本を登録した日付
+        this.registerDate = new Date();     //本を登録した日付
     }
 
     //getter
@@ -34,9 +34,7 @@ public class Book{
     }
 
     //getter
-    public boolean getLent(){
-        return this.lent;
-    }
+    public boolean getLent(){ return this.lent; }
 
     //setter
     public void setReturnDate(Date d){
@@ -44,14 +42,20 @@ public class Book{
     }
 
     //getter
-    public Calendar getReturnDate(){
+    public Date getReturnDate(){
         return this.returnDate;
     }
 
     //getter
-    public Calendar getRegisterDate(){
+    public Date getRegisterDate(){
         return this.registerDate;
     }
+
+    //String型で登録日を返すメソッド
+    public String RegDateString(){ return sdf.format(this.registerDate); }
+
+    //String型で返却予定日を返すメソッド
+    public String RetDateString(){ return sdf.format(this.returnDate); }
 
 
 }

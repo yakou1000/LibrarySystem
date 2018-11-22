@@ -89,7 +89,12 @@ public class BookDataBase{
     //本の一覧を表示するメソッド
     public void viewAllBooks(){
         for(Book b:bookList){
-            System.out.println("ID:" + b.getId() + " NAME:" + b.getName());
+            System.out.print("ID:" + b.getId() + ", NAME:" + b.getName() + ", 貸出状況:");
+            if(b.getLent()){
+                System.out.println("貸出中");
+            }else{
+                System.out.println("貸出可");
+            }
         }
         System.out.println(" ");
     }

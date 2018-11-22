@@ -78,7 +78,12 @@ public class BookDataBase{
         int num = 0;    //本の数
         for(Book b:bookList){
             if(b.getName().toLowerCase().contains(name.toLowerCase())){
-                System.out.println("ID: " + b.getId() + ", NAME: " + b.getName());
+                System.out.print("ID:" + b.getId() + ", NAME:" + b.getName() + ", 貸出状況:");
+                if(b.getLent()){
+                    System.out.println("貸出中");
+                }else{
+                    System.out.println("貸出可");
+                }
                 num +=1;
             }
         }

@@ -30,5 +30,8 @@ public class Main{
         bdb.search("First");
         bdb.search("Book");
         bdb.search("一");
+        //本の貸し出し状況を変更する
+        bdb.bookInformation(3).get(0).setLent(true);
+        bdb.viewAllBooks();
     }
 }

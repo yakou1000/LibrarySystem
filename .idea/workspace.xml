@@ -9,7 +9,7 @@
     <list default="true" id="cbd06022-145c-4008-9ed9-6aa98276646e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/src/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/src/MemberDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/MemberDataBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,14 +47,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7658" />
-          <entry key="txt" value="1818" />
+          <entry key="java" value="8129" />
+          <entry key="txt" value="1920" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7658" />
-          <entry key="PLAIN_TEXT" value="1818" />
+          <entry key="JAVA" value="8129" />
+          <entry key="PLAIN_TEXT" value="1920" />
         </counts>
       </usages-collector>
     </session>
@@ -64,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/src/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="630">
               <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/src/BookDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="49" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+            <state relative-caret-position="259">
+              <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -91,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/src/Member.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -110,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/src/MemberDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+            <state relative-caret-position="442">
+              <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -142,8 +142,8 @@
         <option value="$PROJECT_DIR$/apps/src/Book.java" />
         <option value="$PROJECT_DIR$/apps/src/BookDataBase.java" />
         <option value="$PROJECT_DIR$/apps/src/Main.java" />
-        <option value="$PROJECT_DIR$/apps/src/MemberDataBase.java" />
         <option value="$PROJECT_DIR$/apps/src/Member.java" />
+        <option value="$PROJECT_DIR$/apps/src/MemberDataBase.java" />
       </list>
     </option>
   </component>
@@ -438,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542866869728</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="機能追加：Memberへのメソッド追加&#10;&#10;setter,getterと、ownListに対するいくつかのメソッドを追加した。具体的には、listの数を返すメソッド、最大数かどうかを返すメソッド、本を追加するメソッド、本を削除するメソッドを追加した">
+      <created>1542867796403</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1542867796403</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -528,7 +535,8 @@
     <MESSAGE value="機能変更：Bookのフィールドを変更、mainの変更、viewAllBooksの変更&#10;&#10;本の登録日時、返却予定日のフィールドを、Calendar型ではなくData型に戻した&#10;viewAllBooksの結果に貸し出し状況を表示するようにした" />
     <MESSAGE value="機能変更：mainの変更&#10;&#10;貸し出し中の本には貸出中と表示することを確認できるmainに変更した" />
     <MESSAGE value="機能変更：MemberDataBaseの変更&#10;&#10;いくつかのメソッドを追加した。しかし、Memberクラスのメソッドが足りていないためにまだ動作しない。" />
-    <option name="LAST_COMMIT_MESSAGE" value="機能変更：MemberDataBaseの変更&#10;&#10;いくつかのメソッドを追加した。しかし、Memberクラスのメソッドが足りていないためにまだ動作しない。" />
+    <MESSAGE value="機能追加：Memberへのメソッド追加&#10;&#10;setter,getterと、ownListに対するいくつかのメソッドを追加した。具体的には、listの数を返すメソッド、最大数かどうかを返すメソッド、本を追加するメソッド、本を削除するメソッドを追加した" />
+    <option name="LAST_COMMIT_MESSAGE" value="機能追加：Memberへのメソッド追加&#10;&#10;setter,getterと、ownListに対するいくつかのメソッドを追加した。具体的には、listの数を返すメソッド、最大数かどうかを返すメソッド、本を追加するメソッド、本を削除するメソッドを追加した" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LibrarySystem.iml">
@@ -536,32 +544,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/src/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="630">
           <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/src/BookDataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/src/MemberDataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -579,6 +566,27 @@
             <element signature="e#1119#1120#0" expanded="true" />
             <element signature="e#1149#1150#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/src/BookDataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/src/MemberDataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
         </state>
       </provider>
     </entry>

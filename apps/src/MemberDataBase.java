@@ -35,12 +35,15 @@ public class MemberDataBase{
         }
     }
 
-    /*
     //会員情報を変更するメソッド
-    public void change(){
-
+    public void changeOoo(int id,boolean newOoo){
+        memberInformation(id).get(0).setOoo(newOoo);
     }
-    */
+
+    public void changeName(int id,String name){
+        memberInformation(id).get(0).setName(name);
+    }
+
 
     //名前から会員情報を返すメソッド
     //同じ名前の会員をまとめてリストにして返す
@@ -78,8 +81,6 @@ public class MemberDataBase{
         }
         System.out.println(" ");
     }
-
-    //特定のユーザーが所持している本の一覧を表示するメソッド
 
 }
 

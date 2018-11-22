@@ -10,7 +10,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/src/LibrarySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/LibrarySystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/src/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/src/MemberDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/MemberDataBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,14 +49,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="12328" />
-          <entry key="txt" value="2800" />
+          <entry key="java" value="12724" />
+          <entry key="txt" value="2908" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12328" />
-          <entry key="PLAIN_TEXT" value="2800" />
+          <entry key="JAVA" value="12724" />
+          <entry key="PLAIN_TEXT" value="2908" />
         </counts>
       </usages-collector>
     </session>
@@ -77,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/src/BookDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="84" column="75" lean-forward="true" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="75" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -86,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="1005">
               <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
             </state>
           </provider>
@@ -95,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/src/Member.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+            <state relative-caret-position="465">
+              <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
               <folding>
                 <element signature="e#932#933#0" expanded="true" />
                 <element signature="e#954#955#0" expanded="true" />
@@ -112,8 +113,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/src/MemberDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1123">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="264">
+              <caret line="43" column="51" lean-forward="true" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+              <folding>
+                <element signature="e#996#997#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#1111#1112#0" expanded="true" />
+                <element signature="e#1145#1146#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/src/LibrarySystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="141" column="37" selection-start-line="141" selection-start-column="37" selection-end-line="141" selection-end-column="37" />
+            <state relative-caret-position="285">
+              <caret line="132" column="5" lean-forward="true" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
               <folding>
                 <element signature="e#303#304#0" expanded="true" />
                 <element signature="e#324#325#0" expanded="true" />
@@ -140,6 +147,10 @@
                 <element signature="e#3054#3055#0" expanded="true" />
                 <element signature="e#3105#3106#0" expanded="true" />
                 <element signature="e#3139#3140#0" expanded="true" />
+                <element signature="e#3335#3336#0" expanded="true" />
+                <element signature="e#3352#3353#0" expanded="true" />
+                <element signature="e#3448#3449#0" expanded="true" />
+                <element signature="e#3484#3485#0" expanded="true" />
                 <element signature="e#3202#3203#0" expanded="true" />
                 <element signature="e#3243#3244#0" expanded="true" />
               </folding>
@@ -175,10 +186,10 @@
         <option value="$PROJECT_DIR$/src/LibrarySystemDemo.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/apps/src/Book.java" />
-        <option value="$PROJECT_DIR$/apps/src/MemberDataBase.java" />
-        <option value="$PROJECT_DIR$/apps/src/Member.java" />
         <option value="$PROJECT_DIR$/apps/src/BookDataBase.java" />
         <option value="$PROJECT_DIR$/apps/src/Main.java" />
+        <option value="$PROJECT_DIR$/apps/src/Member.java" />
+        <option value="$PROJECT_DIR$/apps/src/MemberDataBase.java" />
         <option value="$PROJECT_DIR$/apps/src/LibrarySystem.java" />
       </list>
     </option>
@@ -239,7 +250,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542878294834" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542879180101" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -565,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542877267620</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="機能追加：viewOwnList()の追加、mainの変更&#10;&#10;LibrarySystemに、memberIDを受け取って借りている本の一覧を表示するviewOwnListメソッドを追加した。&#10;それに伴ってmainも変更した。">
+      <created>1542878402421</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1542878402421</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -632,7 +650,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="機能修正：mainの修正、スペルミス整理&#10;&#10;mainを動くようにした&#10;全ファイルのlistをListに変更した" />
     <MESSAGE value="機能修正：mainの修正、スペルミス整理&#10;&#10;mainを動くようにした&#10;全ファイルのinfomationをinformationにした" />
     <MESSAGE value="機能修正：mainの修正&#10;&#10;mainを動くようにした" />
     <MESSAGE value="機能修正：メソッドの変更&#10;&#10;BookDataBaseのbookInformationメソッドの返り値をBookでなくArrayList&lt;Book&gt;にした。そのことによってnullチェックが簡単になった。&#10;それに合わせてdiscardの中身を変更した" />
@@ -657,7 +674,8 @@
     <MESSAGE value="機能変更：mainの変更,BookDataBaseの変更&#10;&#10;viewAllBooksに予定返却日を表示できるように改良した&#10;それに伴ってmainも変更した" />
     <MESSAGE value="機能変更：mainの変更&#10;&#10;2回目以降の本の貸出で予定返却日の表示が正しくされるかを確認するためにmainを変更した。" />
     <MESSAGE value="機能変更：mainの変更、searchメソッドの変更&#10;&#10;searchメソッドでの検索結果に貸出中の本があった場合、返却予定日を出力するように変更した。&#10;それに伴ってmainを変更した" />
-    <option name="LAST_COMMIT_MESSAGE" value="機能変更：mainの変更、searchメソッドの変更&#10;&#10;searchメソッドでの検索結果に貸出中の本があった場合、返却予定日を出力するように変更した。&#10;それに伴ってmainを変更した" />
+    <MESSAGE value="機能追加：viewOwnList()の追加、mainの変更&#10;&#10;LibrarySystemに、memberIDを受け取って借りている本の一覧を表示するviewOwnListメソッドを追加した。&#10;それに伴ってmainも変更した。" />
+    <option name="LAST_COMMIT_MESSAGE" value="機能追加：viewOwnList()の追加、mainの変更&#10;&#10;LibrarySystemに、memberIDを受け取って借りている本の一覧を表示するviewOwnListメソッドを追加した。&#10;それに伴ってmainも変更した。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LibrarySystem.iml">
@@ -673,17 +691,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apps/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/src/BookDataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/apps/src/MemberDataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1123">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="264">
+          <caret line="43" column="51" lean-forward="true" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+          <folding>
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/src/Member.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+        <state relative-caret-position="465">
+          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
           <folding>
             <element signature="e#932#933#0" expanded="true" />
             <element signature="e#954#955#0" expanded="true" />
@@ -695,24 +733,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/src/BookDataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="84" column="75" lean-forward="true" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/src/LibrarySystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="141" column="37" selection-start-line="141" selection-start-column="37" selection-end-line="141" selection-end-column="37" />
+        <state relative-caret-position="285">
+          <caret line="132" column="5" lean-forward="true" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
           <folding>
             <element signature="e#303#304#0" expanded="true" />
             <element signature="e#324#325#0" expanded="true" />
@@ -730,6 +754,10 @@
             <element signature="e#3054#3055#0" expanded="true" />
             <element signature="e#3105#3106#0" expanded="true" />
             <element signature="e#3139#3140#0" expanded="true" />
+            <element signature="e#3335#3336#0" expanded="true" />
+            <element signature="e#3352#3353#0" expanded="true" />
+            <element signature="e#3448#3449#0" expanded="true" />
+            <element signature="e#3484#3485#0" expanded="true" />
             <element signature="e#3202#3203#0" expanded="true" />
             <element signature="e#3243#3244#0" expanded="true" />
           </folding>

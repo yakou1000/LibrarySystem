@@ -1,8 +1,8 @@
 import java.util.*;
 
 public class Member{
-    private int memberId;
-    final String name;
+    final int memberId;
+    private String name;
     private boolean ooo;
     private ArrayList<Book> ownList;
 
@@ -27,9 +27,9 @@ public class Member{
     public ArrayList<Book> getOwnList(){return ownList;}
 
     //setter群
-    public void setId(int id){ this.memberId = id;}
-
     public void setOoo(boolean ooo){ this.ooo = ooo;}
+
+    public void setName(String name){ this.name = name;}
 
     //OwnListに対する操作
     //add,remove,numOwn,isMax

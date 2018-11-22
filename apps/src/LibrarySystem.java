@@ -124,6 +124,13 @@ public class LibrarySystem {
     }
 
     //会員情報変更
+    public void changeOoo(int id,boolean newOoo){
+        memberdb.changeOoo(id,newOoo);
+    }
+
+    public void changeName(int id,String newName){
+        memberdb.changeName(id,newName);
+    }
 
     //会員の一覧表示
     public void viewAllMembers(){

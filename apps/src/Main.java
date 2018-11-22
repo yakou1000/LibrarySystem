@@ -77,5 +77,12 @@ public class Main{
         ls.viewAllBooks();
         ls.viewAllMembers();
 
+        //2回目以降の貸出手続き、返却予定日がどうなるか
+        ls.lendBook(2,1);
+
+        ls.viewAllBooks();
+        ls.viewAllMembers();
+
+
     }
 }

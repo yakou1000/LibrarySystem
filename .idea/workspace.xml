@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cbd06022-145c-4008-9ed9-6aa98276646e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/src/BookDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/BookDataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/src/Main.java" afterDir="false" />
     </list>
@@ -48,14 +47,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11813" />
-          <entry key="txt" value="2602" />
+          <entry key="java" value="11875" />
+          <entry key="txt" value="2670" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11813" />
-          <entry key="PLAIN_TEXT" value="2602" />
+          <entry key="JAVA" value="11875" />
+          <entry key="PLAIN_TEXT" value="2670" />
         </counts>
       </usages-collector>
     </session>
@@ -77,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/src/BookDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="82" column="31" lean-forward="true" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+            <state relative-caret-position="240">
+              <caret line="87" column="18" lean-forward="true" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -86,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+            <state relative-caret-position="405">
+              <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -239,7 +238,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542876695687" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542876914381" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -544,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542876291174</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="機能変更：mainの変更,BookDataBaseの変更&#10;&#10;viewAllBooksに予定返却日を表示できるように改良した&#10;それに伴ってmainも変更した">
+      <created>1542876826615</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1542876826615</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -611,7 +617,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="機能修正：引数名の変更&#10;&#10;main関数の引数の[]の位置を変更した" />
     <MESSAGE value="機能修正：クラス名の変更&#10;&#10;LibrarySystemDemo.javaをMain.javaに変更" />
     <MESSAGE value="整理：フォルダの変更、モジュールの作成&#10;&#10;モジュールを作成し、作成したjavaファイルをsrcフォルダ内に移動した" />
     <MESSAGE value="機能修正：mainの修正、スペルミス整理&#10;&#10;mainを動くようにした&#10;全ファイルのlistをListに変更した" />
@@ -636,7 +641,8 @@
     <MESSAGE value="機能変更：返却メソッドの追加、Member.removeの仕様変更&#10;&#10;LibrarySystemの返却メソッドreturnBookの中身を実装した。&#10;それに伴い、Member.removeにnullチェックをつけた。" />
     <MESSAGE value="機能変更：mainの変更&#10;&#10;本返却メソッドの動作確認のためにmainを変更した" />
     <MESSAGE value="機能変更：mainの変更,returnBookの変更&#10;&#10;本返却メソッドの動作確認のためにmainを変更した&#10;returnBookの中にバグがあったので修正した" />
-    <option name="LAST_COMMIT_MESSAGE" value="機能変更：mainの変更,returnBookの変更&#10;&#10;本返却メソッドの動作確認のためにmainを変更した&#10;returnBookの中にバグがあったので修正した" />
+    <MESSAGE value="機能変更：mainの変更,BookDataBaseの変更&#10;&#10;viewAllBooksに予定返却日を表示できるように改良した&#10;それに伴ってmainも変更した" />
+    <option name="LAST_COMMIT_MESSAGE" value="機能変更：mainの変更,BookDataBaseの変更&#10;&#10;viewAllBooksに予定返却日を表示できるように改良した&#10;それに伴ってmainも変更した" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LibrarySystem.iml">
@@ -703,15 +709,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/src/BookDataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="82" column="31" lean-forward="true" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+        <state relative-caret-position="240">
+          <caret line="87" column="18" lean-forward="true" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+        <state relative-caret-position="405">
+          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
         </state>
       </provider>
     </entry>

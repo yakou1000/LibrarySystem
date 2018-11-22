@@ -63,6 +63,8 @@ public class LibrarySystem {
         b.setReturnDate(cal.getTime());
         //会員の所有リストに本を追加
         m.add(b);
+        //printfデバッグ
+        System.out.println("Finish process");
     }
 
     //本を検索

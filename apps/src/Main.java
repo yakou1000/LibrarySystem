@@ -1,6 +1,12 @@
 //import java.util.*;
 
 public class Main{
+
+    //ユーザー対話型になるようにメソッドを定義
+    //main内ではwhileループする
+    //quitを忘れない
+
+
     public static void main(String[] args){
         LibrarySystem ls = new LibrarySystem();
 
@@ -29,9 +35,6 @@ public class Main{
         ls.searchBook("First");
         ls.searchBook("Book");
         ls.searchBook("一");
-        //本の貸し出し状況を変更する
-        ls.getBookDB().bookInformation(3).get(0).setLent(true);
-        ls.viewAllBooks();
 
         //会員登録
         ls.regMember("Man1");
@@ -39,8 +42,24 @@ public class Main{
         ls.regMember("Man2");
         //会員情報変更
         ls.getMemberDB().memberInformation(2).get(0).setOoo(true);
-        ls.getMemberDB().memberInformation(1).get(0).add(ls.getBookDB().bookInformation(1).get(0));
         ls.viewAllMembers();
+        //貸出手続き
+        //正常な手続き
+        ls.lendBook(1,1);
+        //すでに借りられている手続き
+        ls.lendBook(1,1);
+        //メンバーIDが間違っている
+        ls.lendBook(4,3);
+        //BookIDが間違っている
+        ls.lendBook(1,30);
+        //これ以上借りられない
+        ls.lendBook(1,3);
+        ls.lendBook(1,4);
+        ls.lendBook(1,5);
+
+        ls.viewAllBooks();
+        ls.viewAllMembers();
+
 
     }
 }
